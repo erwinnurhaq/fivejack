@@ -51,7 +51,7 @@ function solution(relation) {
         index++
     }
 
-    console.log('unique', unique)
+    console.log('unique combinations (column index)', unique)
     return unique.length;
 }
 
@@ -64,4 +64,4 @@ const db = [
     ['600', 'apeach', 'music', '2']
 ]
 
-console.log('answer', solution(db))
+console.log(solution(db))
